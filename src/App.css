@@ -89,6 +89,13 @@ ul li a{
   font-size: 20px;
 }
 
+.EGG{
+  background-color: #fed201;
+  width: 99.5vh;
+  height: 120vh;
+  margin-left: 50px;
+}
+
 .standout{
   position: relative;
   display: flex;
@@ -106,11 +113,21 @@ ul li a{
   font-size: 20px;
 }
 
+.cup{
+  position: relative;
+  margin-left: 12px;
+  margin-bottom: 30px;
+  width: 107vh;
+  height: 560px;
+  background-color: #ff7e6e;
+}
+
 .design{
   position: relative;
   display: flex;
+  margin-bottom: 40px;
   justify-content: center;
-  top: 55px;
+  top: 30px;
 }
 .red{
   width: 700px;

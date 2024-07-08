@@ -13,7 +13,7 @@ function Transform() {
                 <h4><b>LEARN MORE</b></h4>
             </div>
             <div className='egg'>
-                <img src={egg} />
+                <img src={egg} className='EGG'/>
             </div>
         </div>
     )
