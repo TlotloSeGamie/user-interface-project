@@ -162,31 +162,146 @@ ul li a{
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
 .emily{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 700px;
-  position: relative;
-  background-image: url(./Images/image-emily.jpg);
+  position: relative;;
   background-size: cover;
   height: 100vh;
   padding: 95px;
+}
+.emi-text{
+  color: #505050;
+  padding-top: 70px;
+  font-size: smaller;
+  font: flex;
 }
 
 .thomas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 700px;
   position: relative;
-  background-image: url(./Images/image-thomas.jpg);
   background-size: cover;
   height: 100vh;
   padding: 95px;
 }
+.tom-text{
+  color: #505050;
+  padding-top: 70px;
+  font-size: smaller;
+  font: flex;
+}
 
 .jennie{
-  width: 700px;
+  width: 650px;
   position: relative;
-  background-image: url(./Images/image-jennie.jpg);
   background-size: cover;
   height: 100vh;
   padding: 95px;
+}
+.jen-text{
+  color: #505050;
+  padding-top: 70px;
+  font-size: smaller;
+  font: flex;
+}
+
+.emi{
+  padding:0px;
+  border-radius: 60%;
+  width: 120px;
+}
+
+.tom{
+  border-radius: 60%;
+  width: 120px;
+}
+
+.jen{
+  border-radius: 60%;
+  width: 120px;
+}
+
+.Emi-R{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #505050;
+  padding: 40px;
+}
+
+.Tom-S{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #505050;
+  padding: 28px;
+}
+
+.Jen-F{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #505050;
+  padding: 40px;
+}
+
+
+.Pics{
+  background: #90d4c5;
+  position: relative;
+  display: flex;
+  padding-bottom: 70px;
+}
+.milk{
+  width: 339px;
+}
+.plate{
+  width: 339px;
+}
+.cone{
+  width: 339px;
+}
+.sugar{
+  width: 339px;
+}
+
+.footer{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #90d4c5;
+  height: 120px;
+  margin: auto;
+  padding: 100px;
+}
+
+.sunny{
+  color: #32796b;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.ASP{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-bottom: 70px;
+}
+
+.socials{
+  display: flex;
+  gap: 30px;
+  margin-bottom: 90px;
 }
