@@ -1,8 +1,9 @@
 import emily from '../Images/Client testimonials/image-emily.jpg';
 import thomas from '../Images/Client testimonials/image-thomas.jpg';
-import jennie from '../Images/Client testimonials/image-jennie.jpg'; 
+import jennie from '../Images/Client testimonials/image-jennie.jpg';
+
 function Testimonials() {
-    return(
+    return (
         <div className="client">
             <div className="testi">
                 <h1><b>CLIENT TESTIMONIALS</b></h1>
@@ -10,49 +11,40 @@ function Testimonials() {
 
             <div className="statements">
                 <div className="emily">
-                    <img src={emily} className='emi'/>
+                    <img src={emily} className='emi' alt="Emily R." />
                     <div className='emi-text'>
-                        <b>We put our trust in Sunnyside and they delivered, 
-                            making sure our needs were met and dealines were always 
-                            a hit.<br></br>
-                            <br></br>
-                            </b>
+                        <p>We put our trust in Sunnyside, and they delivered, making sure our needs were met and deadlines were always hit.</p>
                     </div>
                     <div className='Emi-R'>
                         <b>Emily R.</b>
-                        <h7 className='mark'><small>Marketing Director</small></h7>
-                    </div>
-                </div>
-                <div className="thomas">
-                    <img src={thomas} className='tom'/>
-                    <div className='tom-text'>
-                        <b>Sunnyside's enthuasiasm coupled with their keen interest 
-                            in our brand's success made it a satisfying and enjoyable experience</b>
-                            <br></br><br></br>
-                    </div>
-                    <div className='Tom-S'>
-                        <b>Thomas S.</b>
-                        <h7><small>Cheif Operating Officer</small></h7>
-                    </div>
-                </div>
-                <div className="jennie">
-                    <img src={jennie} className='jen'/>
-                    <div className='jen-text'>
-                        <b>Incredible end results! Our sales increased over 400%
-                        when we worked with Sunnyside.
-                        Highly recommended.</b>
-                        <br></br><br></br>
-                    </div>
-                    <div className='Jen-F'>
-                        <b>Jennie F.</b>
-                        <h7><small>Business Owner</small></h7>
+                        <p><small>Marketing Director</small></p>
                     </div>
                 </div>
 
+                <div className="thomas">
+                    <img src={thomas} className='tom' alt="Thomas S." />
+                    <div className='tom-text'>
+                        <p>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+                    </div>
+                    <div className='Tom-S'>
+                        <b>Thomas S.</b>
+                        <p><small>Chief Operating Officer</small></p>
+                    </div>
+                </div>
+
+                <div className="jennie">
+                    <img src={jennie} className='jen' alt="Jennie F." />
+                    <div className='jen-text'>
+                        <p>Incredible end results! Our sales increased over 400% when we worked with Sunnyside. Highly recommended.</p>
+                    </div>
+                    <div className='Jen-F'>
+                        <b>Jennie F.</b>
+                        <p><small>Business Owner</small></p>
+                    </div>
+                </div>
             </div>
         </div>
-    )
-    
+    );
 }
 
 export default Testimonials;
