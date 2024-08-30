@@ -48,7 +48,7 @@ ul li a:hover {
 }
 
 .contact:hover {
-  background-color: #3ebfff;
+  background-color: #000000;
   color: white;
 }
 
@@ -116,7 +116,7 @@ ul li a:hover {
 .text h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #007bff; 
+  color: #000000; 
   cursor: pointer;
   text-decoration: underline; 
 }
@@ -176,7 +176,7 @@ ul li a:hover {
 .stand-text h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #007bff; 
+  color: #000000; 
   cursor: pointer;
   text-decoration: underline; 
 }
@@ -257,7 +257,6 @@ ul li a:hover {
 
 .statements {
   display: flex;
-  flex-direction: column; 
   gap: 20px;
   width: 100%;
   max-width: 1200px; 
@@ -309,10 +308,9 @@ ul li a:hover {
 
 .Pics img {
   flex: 1; 
-  max-width: 250px; 
+  max-width: 421px; 
   height: auto; 
   object-fit: cover; 
-  margin: 0 10px; 
 }
 
 .footer {
@@ -347,7 +345,6 @@ ul li a:hover {
   gap: 30px;
   margin-bottom: 90px;
 }
-
 @media (max-width: 1200px) {
   .nav {
     padding: 20px 30px;
@@ -470,3 +467,4 @@ ul li a:hover {
     font-size: 12px;
   }
 }
+
